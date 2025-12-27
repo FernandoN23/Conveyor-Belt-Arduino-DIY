@@ -2,7 +2,7 @@
 
 *Author: Fernando Navarrete* ✍️
 
-## English Version
+## English Version us
 
 Welcome to **Conveyor Belt Arduino DIY**! 🎉  
 

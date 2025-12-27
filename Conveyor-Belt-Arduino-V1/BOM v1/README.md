@@ -1,4 +1,4 @@
-# REPOS Sorting Conveyor Belt - Bill of Materials 📦🤖
+# Conveyor Belt Arduino DIY - Bill of Materials 📦🤖
 
 *Author: Fernando Navarrete* ✍️
 
@@ -38,28 +38,29 @@ These components are essential for the movement and control logic of the system.
 
 List of parts to be printed (STL). Recommended material: **PLA** or **PETG**.
 *Note: The filenames below correspond to the files located in `../CAD v1/Fusion360/Parts` or `../CAD v1/STEP/Parts`.*
-*Please fill in the "Weight" column based on your slicer settings (e.g., 20% infill).*
 
-| Part Name (Filename) | Description | Qty | Weight (g) `[Fill]` |
+> **⚖️ Weight Note:** The weights listed below were estimated using **Bambu Studio Slicer** with **Generic PLA** settings. Values may vary slightly depending on your specific filament brand and infill settings.
+
+| Part Name (Filename) | Description | Qty | Weight (g) |
 | :--- | :--- | :---: | :---: |
 | `Cadena_Oruga` | Caterpillar track chain (43 links) | 1 | 92.44 |
-| `Engranaje_Motor` | Power Gear | 2 |24.98 | 
-| `Soporte_Motor` | DC Motor support piece | 1 | |
-| `Cilindro` | Support unit cylinder | 1 | 70.72|
-| `Eje_7mm` | Support unit shaft (7mm) | 1 | |
+| `Engranaje_Motor` | Power Gear | 2 | 24.98 |
+| `Soporte_Motor` | DC Motor support piece | 1 | 10.10 |
+| `Cilindro` | Support unit cylinder | 1 | 70.72 |
+| `Eje_7mm` | Support unit shaft (7mm) | 1 | 1.68 |
 | `Soportes_Acrilico`* | Side supports (Transparent) | 2 | *Laser Cut rec.* |
-| `Apoyos_Paredes_Laterales` | Support pieces for acrylic walls | 4 | |
-| `Soporte_Inferior` | Electronics support pieces | 2 | |
-| `Placa_Componentes` | Plate for Driver L298N & Batteries | 1 | |
-| `Soporte_Servomotor` | Mounts for SG90 servos | 2 | |
-| `Pala_Servomotores` | Pushing blade for servos | 2 | |
-| `Caja_Receptora_Lateral` | Side boxes for sorted objects | 2 | 74.78|
+| `Apoyos_Paredes_Laterales` | Support pieces for acrylic walls | 4 | 21.21 |
+| `Soporte_Inferior` | Electronics support pieces | 2 | 13.78 |
+| `Placa_Componentes` | Plate for Driver L298N & Batteries | 1 | 17.25 |
+| `Soporte_Servomotor` | Mounts for SG90 servos | 2 | 9.61 |
+| `Pala_Servomotores` | Pushing blade for servos | 2 | 11.25 |
+| `Caja_Receptora_Lateral` | Side boxes for sorted objects | 2 | 74.78 |
 | `Soporte_Superior` | Joins box & servos, levels belt | 2 | 11.07 |
-| `Camara_Oscura` | Darkened chamber for sensor | 1 | 37.95|
-| `Cortinas_de_Lamas` | Slats curtains for chamber (TPU) | 2 | 11.85 |
+| `Camara_Oscura` | Darkened chamber for sensor | 1 | 37.95 |
+| `Cortinas_de_Lamas` | Slats curtains for chamber (TPU Rec.) | 2 | 11.85 |
 | `Tolva_de_Carga` | Hopper to direct objects | 1 | 25.21 |
-| `Tapas_Cubrerodamientos` | Covers for bearings | 4 | |
-| `Tensor_Acoplable` | Optional belt tensioner | Opt. | |
+| `Tapas_Cubrerodamientos` | Covers for bearings | 4 | 7.85 |
+| `Tensor_Acoplable` | Optional belt tensioner | Opt. | 20.36 |
 
 > **Note:** The *Soportes_Acrilico* connect the structure. While listed here, using **Laser Cutting** (3mm-5mm Acrylic) is recommended for visibility. Check `../Acrylic Wall Manufacturing` for details.
 
@@ -113,29 +114,29 @@ Estos componentes comerciales son necesarios para la motricidad y lógica del si
 
 Listado de archivos STL necesarios. Material recomendado: **PLA** o **PETG**.
 *Nota: Los nombres de archivo corresponden a los ubicados en `../CAD v1/Fusion360/Parts` o `../CAD v1/STEP/Parts`.*
-*Por favor rellena la columna "Peso" según tu configuración de slicer (ej. 20% relleno).*
 
-| Nombre Pieza (Archivo) | Descripción | Cant. | Peso (g) `[Rellenar]` |
+> **⚖️ Nota sobre Pesos:** Los pesos listados a continuación fueron obtenidos a partir del laminador **Bambu Studio**, utilizando configuración para **PLA genérico**. Los valores pueden variar según la marca de filamento y la configuración de relleno.
+
+| Nombre Pieza (Archivo) | Descripción | Cant. | Peso (g) |
 | :--- | :--- | :---: | :---: |
-| `Cadena_Oruga` | Cadena tipo oruga (43 eslabones) | 1 | |
-| `Engranaje_Motor_Frontal` | Engranaje motor frontal | 1 | |
-| `Engranaje_Motor_Trasero` | Engranaje motor trasero | 1 | |
-| `Soporte_Motor` | Soporte del motor DC | 1 | |
-| `Cilindro` | Cilindro unidad de soporte | 1 | |
-| `Eje_7mm` | Eje de 7mm unidad soporte | 1 | |
+| `Cadena_Oruga` | Cadena tipo oruga (43 eslabones) | 1 | 92.44 |
+| `Engranaje_Motor` | Engranaje Potencia | 2 | 24.98 |
+| `Soporte_Motor` | Soporte del motor DC | 1 | 10.10 |
+| `Cilindro` | Cilindro unidad de soporte | 1 | 70.72 |
+| `Eje_7mm` | Eje de 7mm unidad soporte | 1 | 1.68 |
 | `Soportes_Acrilico`* | Soportes laterales | 2 | *Rec. Corte Láser* |
-| `Apoyos_Paredes_Laterales` | Apoyos para los soportes | 4 | |
-| `Soporte_Inferior` | Soporte componentes electrónicos | 2 | |
-| `Placa_Componentes` | Placa para Driver y Baterías | 1 | |
-| `Soporte_Servomotor` | Soporte para servos SG90 | 2 | |
-| `Pala_Servomotores` | Pala de empuje | 2 | |
-| `Caja_Receptora_Lateral` | Caja lateral receptora | 2 | |
-| `Soporte_Superior` | Unión caja/servos | 2 | |
-| `Camara_Oscura` | Cámara para sensor de color | 1 | |
-| `Cortinas_de_Lamas` | Cortinas para la cámara | 2 | |
-| `Tolva_de_Carga` | Tolva de dirección | 1 | |
-| `Tapas_Cubrerodamientos` | Cubiertas para rodamientos | 4 | |
-| `Tensor_Acoplable` | Tensor de correa opcional | Opt. | |
+| `Apoyos_Paredes_Laterales` | Apoyos para los soportes | 4 | 21.21 |
+| `Soporte_Inferior` | Soporte componentes electrónicos | 2 | 13.78 |
+| `Placa_Componentes` | Placa para Driver y Baterías | 1 | 17.25 |
+| `Soporte_Servomotor` | Soporte para servos SG90 | 2 | 9.61 |
+| `Pala_Servomotores` | Pala de empuje | 2 | 11.25 |
+| `Caja_Receptora_Lateral` | Caja lateral receptora | 2 | 74.78 |
+| `Soporte_Superior` | Unión caja/servos | 2 | 11.07 |
+| `Camara_Oscura` | Cámara para sensor de color | 1 | 37.95 |
+| `Cortinas_de_Lamas` | Cortinas para la cámara (Rec. TPU) | 2 | 11.85 |
+| `Tolva_de_Carga` | Tolva de dirección | 1 | 25.21 |
+| `Tapas_Cubrerodamientos` | Cubiertas para rodamientos | 4 | 7.85 |
+| `Tensor_Acoplable` | Tensor de correa opcional | Opt. | 20.36 |
 
 > **Nota:** Los *Soportes de Acrílico* estructuran la correa. Aunque están listados aquí, se recomienda usar **Corte Láser** (Acrílico 3mm-5mm). Revisa la carpeta `../Acrylic Wall Manufacturing` para los planos.
 
