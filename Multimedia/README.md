@@ -16,6 +16,7 @@ The visual assets are organized by project iteration:
 Multimedia
 ├── 📂 Logos
 ├── 📂 V1
+│   ├── 📂 as_built  <-- Final conveyor belt multimedia
 │   ├── 🖼️ Ensamble Correa Transportadora ISO.png
 │   ├── 🖼️ Ensamble Correa Transportadora Oruga Interior.png
 │   ├── ... (Other render views)
@@ -79,6 +80,7 @@ Los recursos visuales están organizados por iteración del proyecto:
 Multimedia
 ├── 📂 Logos
 ├── 📂 V1
+│   ├── 📂 as_built  <-- Multimedia final correa transportadora
 │   ├── 🖼️ Ensamble Correa Transportadora ISO.png
 │   ├── 🖼️ Ensamble Correa Transportadora Oruga Interior.png
 │   ├── ... (Otras vistas renderizadas)
@@ -125,4 +127,27 @@ Enfoque en la disposición interna de poleas y transmisión.
 
 ---
 
+## 🛠️ Fabrication & As-Built (V1) / Fabricación y Prototipo Real
+
+**🇬🇧 English:**
+This section showcases the **physical realization** of the project. These photos demonstrate the final assembly using 3D printed parts, acrylic supports, and the electronic integration.
+
+**🇪🇸 Español:**
+Esta sección muestra la **realización física** del proyecto. Estas fotos demuestran el ensamblaje final utilizando piezas impresas en 3D, soportes de acrílico y la integración electrónica.
+
+### 📸 Final Assembly / Ensamblaje Final
+
+| Front View / Vista Frontal | Side View / Vista Lateral |
+| ----- | ----- |
+| <img src="V1/as_built/conveyor_belt_1.jpg" width="100%"> | <img src="V1/as_built/conveyor_belt_2.jpg" width="100%"> |
+
+### 🔧 Fabrication Details / Detalles de Fabricación
+
+| Fabrication / Fabricación | Acrylic Wall / Pared Acrílica | Release / Estreno |
+| ----- | ----- | ----- |
+| <img src="V1/as_built/conveyor_belt_fabrication.jpg" width="100%"> | <img src="V1/as_built/conveyor_belt_fabrication_acrylic_wall.jpg" width="100%"> | <img src="V1/as_built/conveyor_belt_x9.jpg" width="100%"> |
+
+---
 *Happy Coding & Building!* 🚀
+
+
