@@ -14,6 +14,7 @@ The visual assets are organized by project iteration:
 
 ```text
 Multimedia
+├── 📂 Logos
 ├── 📂 V1
 │   ├── 🖼️ Ensamble Correa Transportadora ISO.png
 │   ├── 🖼️ Ensamble Correa Transportadora Oruga Interior.png
@@ -76,6 +77,7 @@ Los recursos visuales están organizados por iteración del proyecto:
 
 ```text
 Multimedia
+├── 📂 Logos
 ├── 📂 V1
 │   ├── 🖼️ Ensamble Correa Transportadora ISO.png
 │   ├── 🖼️ Ensamble Correa Transportadora Oruga Interior.png
