@@ -147,8 +147,3 @@ No puedes conectar todo directamente a los headers de la placa. Debes crear **Pu
 ---
 *Safety First: Always double-check polarity before switching on! / ¡Seguridad ante todo: revisa siempre la polaridad antes de encender!* 👷⚡
 
-```
-
-### Siguiente paso:
-
-¿Deseas que preparemos ahora el archivo **`README.md`** para la carpeta de **Manufactura de Paredes de Acrílico** (`Acrylic Wall Manufacturing`), detallando cómo exportar los planos DXF para corte láser?
