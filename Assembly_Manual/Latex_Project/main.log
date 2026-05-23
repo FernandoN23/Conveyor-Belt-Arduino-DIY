@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.17)  23 MAY 2026 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.17)  23 MAY 2026 18:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1972,32 +1972,170 @@ File: ./img//departamentos/dimec.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./img//departamentos/dimec.pdf  used on input line 47.
 (pdftex.def)             Requested size: 105.17233pt x 49.79231pt.
  (Documento_ES.tex
-<img/1-Ensamble Correa Transportadora Oruga.png, id=6, 1927.2pt x 1084.05pt>
-File: img/1-Ensamble Correa Transportadora Oruga.png Graphic file (type png)
-<use img/1-Ensamble Correa Transportadora Oruga.png>
-Package pdftex.def Info: img/1-Ensamble Correa Transportadora Oruga.png  used on input line 10.
-(pdftex.def)             Requested size: 422.77698pt x 237.797pt.
+<img/1-Ensamble Correa Transportadora V2.png, id=6, 1525.7pt x 845.1575pt>
+File: img/1-Ensamble Correa Transportadora V2.png Graphic file (type png)
+<use img/1-Ensamble Correa Transportadora V2.png>
+Package pdftex.def Info: img/1-Ensamble Correa Transportadora V2.png  used on input line 10.
+(pdftex.def)             Requested size: 422.77698pt x 234.19223pt.
  [1
 
 
 
-{C:/Users/seika/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./img//departamentos/dimec.pdf> <./img/1-Ensamble Correa Transportadora Oruga.png>]
+{C:/Users/seika/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./img//departamentos/dimec.pdf> <./img/1-Ensamble Correa Transportadora V2.png>]
 Overfull \hbox (28.053pt too wide) in paragraph at lines 26--60
  [][] 
  []
 
 
-Overfull \hbox (24.34749pt too wide) in paragraph at lines 68--111
+Overfull \hbox (44.24944pt too wide) in paragraph at lines 67--112
  [][] 
  []
 
 [2
 
-] [3]) (C:\Users\seika\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
-File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [4
+] [3]
+<img/3-Rodamientos_pared_acr_lico.png, id=45, 1525.7pt x 845.1575pt>
+File: img/3-Rodamientos_pared_acr_lico.png Graphic file (type png)
+<use img/3-Rodamientos_pared_acr_lico.png>
+Package pdftex.def Info: img/3-Rodamientos_pared_acr_lico.png  used on input line 126.
+(pdftex.def)             Requested size: 375.80574pt x 208.16801pt.
+<img/3-Rodamientos_pared_acr_lico_detalle.png, id=46, 1525.7pt x 845.1575pt>
+File: img/3-Rodamientos_pared_acr_lico_detalle.png Graphic file (type png)
+<use img/3-Rodamientos_pared_acr_lico_detalle.png>
+Package pdftex.def Info: img/3-Rodamientos_pared_acr_lico_detalle.png  used on input line 132.
+(pdftex.def)             Requested size: 375.80574pt x 208.16801pt.
+<img/3-Soporte_pared_trasera.png, id=47, 1525.7pt x 845.1575pt>
+File: img/3-Soporte_pared_trasera.png Graphic file (type png)
+<use img/3-Soporte_pared_trasera.png>
+Package pdftex.def Info: img/3-Soporte_pared_trasera.png  used on input line 140.
+(pdftex.def)             Requested size: 375.80574pt x 208.16801pt.
+ [4
 
-] (main.aux
+ <./img/3-Rodamientos_pared_acr_lico.png> <./img/3-Rodamientos_pared_acr_lico_detalle.png>]
+<img/3-Sistema_potencia_1.png, id=58, 1525.7pt x 845.1575pt>
+File: img/3-Sistema_potencia_1.png Graphic file (type png)
+<use img/3-Sistema_potencia_1.png>
+Package pdftex.def Info: img/3-Sistema_potencia_1.png  used on input line 148.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+<img/3-Sistema_potencia_2.png, id=59, 1525.7pt x 845.1575pt>
+File: img/3-Sistema_potencia_2.png Graphic file (type png)
+<use img/3-Sistema_potencia_2.png>
+Package pdftex.def Info: img/3-Sistema_potencia_2.png  used on input line 156.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+ [5 <./img/3-Soporte_pared_trasera.png> <./img/3-Sistema_potencia_1.png>]
+<img/3-Sistema_potencia_3.png, id=69, 1525.7pt x 845.1575pt>
+File: img/3-Sistema_potencia_3.png Graphic file (type png)
+<use img/3-Sistema_potencia_3.png>
+Package pdftex.def Info: img/3-Sistema_potencia_3.png  used on input line 165.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+<img/3-Sistema_potencia_4.png, id=70, 1525.7pt x 845.1575pt>
+File: img/3-Sistema_potencia_4.png Graphic file (type png)
+<use img/3-Sistema_potencia_4.png>
+Package pdftex.def Info: img/3-Sistema_potencia_4.png  used on input line 173.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+ [6 <./img/3-Sistema_potencia_2.png> <./img/3-Sistema_potencia_3.png>]
+<img/3-Sistema_potencia_5.png, id=80, 1525.7pt x 845.1575pt>
+File: img/3-Sistema_potencia_5.png Graphic file (type png)
+<use img/3-Sistema_potencia_5.png>
+Package pdftex.def Info: img/3-Sistema_potencia_5.png  used on input line 181.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+ [7 <./img/3-Sistema_potencia_4.png> <./img/3-Sistema_potencia_5.png>]
+<img/3-Soporte_Manejo_cables_1.png, id=91, 1525.7pt x 845.1575pt>
+File: img/3-Soporte_Manejo_cables_1.png Graphic file (type png)
+<use img/3-Soporte_Manejo_cables_1.png>
+Package pdftex.def Info: img/3-Soporte_Manejo_cables_1.png  used on input line 191.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+<img/3-Soporte_Manejo_cables_2.png, id=92, 1525.7pt x 845.1575pt>
+File: img/3-Soporte_Manejo_cables_2.png Graphic file (type png)
+<use img/3-Soporte_Manejo_cables_2.png>
+Package pdftex.def Info: img/3-Soporte_Manejo_cables_2.png  used on input line 199.
+(pdftex.def)             Requested size: 375.80574pt x 208.16801pt.
+ [8 <./img/3-Soporte_Manejo_cables_1.png> <./img/3-Soporte_Manejo_cables_2.png>]
+<img/3-Espaciador_inferior_portapilas.png, id=102, 1525.7pt x 845.1575pt>
+File: img/3-Espaciador_inferior_portapilas.png Graphic file (type png)
+<use img/3-Espaciador_inferior_portapilas.png>
+Package pdftex.def Info: img/3-Espaciador_inferior_portapilas.png  used on input line 207.
+(pdftex.def)             Requested size: 375.80574pt x 208.16801pt.
+<img/3-Espaciador_inferior_pared_trasera.png, id=103, 1525.7pt x 845.1575pt>
+File: img/3-Espaciador_inferior_pared_trasera.png Graphic file (type png)
+<use img/3-Espaciador_inferior_pared_trasera.png>
+Package pdftex.def Info: img/3-Espaciador_inferior_pared_trasera.png  used on input line 215.
+(pdftex.def)             Requested size: 375.80574pt x 208.16801pt.
+<img/3-Correa_polea_1.png, id=104, 1525.7pt x 845.1575pt>
+File: img/3-Correa_polea_1.png Graphic file (type png)
+<use img/3-Correa_polea_1.png>
+Package pdftex.def Info: img/3-Correa_polea_1.png  used on input line 225.
+(pdftex.def)             Requested size: 375.80574pt x 208.16801pt.
+ [9 <./img/3-Espaciador_inferior_portapilas.png> <./img/3-Espaciador_inferior_pared_trasera.png>]
+<img/3-Correa_polea_2.png, id=114, 1525.7pt x 845.1575pt>
+File: img/3-Correa_polea_2.png Graphic file (type png)
+<use img/3-Correa_polea_2.png>
+Package pdftex.def Info: img/3-Correa_polea_2.png  used on input line 233.
+(pdftex.def)             Requested size: 375.80574pt x 208.16801pt.
+<img/3-Correa_polea_3.png, id=115, 1525.7pt x 845.1575pt>
+File: img/3-Correa_polea_3.png Graphic file (type png)
+<use img/3-Correa_polea_3.png>
+Package pdftex.def Info: img/3-Correa_polea_3.png  used on input line 241.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+ [10 <./img/3-Correa_polea_1.png> <./img/3-Correa_polea_2.png>]
+<img/3-Tapa_rodamiento_1.png, id=125, 1525.7pt x 845.1575pt>
+File: img/3-Tapa_rodamiento_1.png Graphic file (type png)
+<use img/3-Tapa_rodamiento_1.png>
+Package pdftex.def Info: img/3-Tapa_rodamiento_1.png  used on input line 251.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+ [11 <./img/3-Correa_polea_3.png>]
+<img/3-Tapa_rodamiento_2.png, id=133, 1525.7pt x 845.1575pt>
+File: img/3-Tapa_rodamiento_2.png Graphic file (type png)
+<use img/3-Tapa_rodamiento_2.png>
+Package pdftex.def Info: img/3-Tapa_rodamiento_2.png  used on input line 260.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+ [12 <./img/3-Tapa_rodamiento_1.png> <./img/3-Tapa_rodamiento_2.png>]
+<img/3-Camara_oscura_1.png, id=143, 1525.7pt x 845.1575pt>
+File: img/3-Camara_oscura_1.png Graphic file (type png)
+<use img/3-Camara_oscura_1.png>
+Package pdftex.def Info: img/3-Camara_oscura_1.png  used on input line 269.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+<img/3-Camara_oscura_2.png, id=144, 1525.7pt x 845.1575pt>
+File: img/3-Camara_oscura_2.png Graphic file (type png)
+<use img/3-Camara_oscura_2.png>
+Package pdftex.def Info: img/3-Camara_oscura_2.png  used on input line 277.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+ [13 <./img/3-Camara_oscura_1.png> <./img/3-Camara_oscura_2.png>]
+<img/3-Camara_oscura_3.png, id=155, 1525.7pt x 845.1575pt>
+File: img/3-Camara_oscura_3.png Graphic file (type png)
+<use img/3-Camara_oscura_3.png>
+Package pdftex.def Info: img/3-Camara_oscura_3.png  used on input line 285.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+<img/3-Servomotor_1.png, id=156, 1525.7pt x 845.1575pt>
+File: img/3-Servomotor_1.png Graphic file (type png)
+<use img/3-Servomotor_1.png>
+Package pdftex.def Info: img/3-Servomotor_1.png  used on input line 293.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+ [14 <./img/3-Camara_oscura_3.png>]
+<img/3-Servomotor_2.png, id=164, 1525.7pt x 845.1575pt>
+File: img/3-Servomotor_2.png Graphic file (type png)
+<use img/3-Servomotor_2.png>
+Package pdftex.def Info: img/3-Servomotor_2.png  used on input line 302.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+ [15 <./img/3-Servomotor_1.png> <./img/3-Servomotor_2.png>]
+<img/3-Soporte_PCB_1.png, id=174, 1525.7pt x 845.1575pt>
+File: img/3-Soporte_PCB_1.png Graphic file (type png)
+<use img/3-Soporte_PCB_1.png>
+Package pdftex.def Info: img/3-Soporte_PCB_1.png  used on input line 310.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+<img/3-Soporte_PCB_2.png, id=175, 1525.7pt x 845.1575pt>
+File: img/3-Soporte_PCB_2.png Graphic file (type png)
+<use img/3-Soporte_PCB_2.png>
+Package pdftex.def Info: img/3-Soporte_PCB_2.png  used on input line 318.
+(pdftex.def)             Requested size: 352.31653pt x 195.1559pt.
+<img/3-Correa_terminada.png, id=176, 1525.7pt x 845.1575pt>
+File: img/3-Correa_terminada.png Graphic file (type png)
+<use img/3-Correa_terminada.png>
+Package pdftex.def Info: img/3-Correa_terminada.png  used on input line 326.
+(pdftex.def)             Requested size: 469.75539pt x 260.21646pt.
+) [16 <./img/3-Soporte_PCB_1.png> <./img/3-Soporte_PCB_2.png>] (C:\Users\seika\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+) [17 <./img/3-Correa_terminada.png>] (main.aux
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
 )
@@ -2007,18 +2145,18 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 31564 strings out of 474486
- 536685 string characters out of 5743755
+ 31776 strings out of 474486
+ 543232 string characters out of 5743755
  1942542 words of memory out of 5000000
- 53269 multiletter control sequences out of 15000+600000
- 598090 words of font info for 69 fonts, out of 8000000 for 9000
+ 53442 multiletter control sequences out of 15000+600000
+ 601082 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,13n,110p,2962b,2169s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
-Output written on main.pdf (4 pages, 523177 bytes).
+ 113i,13n,110p,2962b,2281s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/seika/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
+Output written on main.pdf (17 pages, 5709528 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

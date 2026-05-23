@@ -7,8 +7,8 @@ Diseñada por Fernando Navarrete, esta innovadora solución transforma la manera
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.9\textwidth]{img/1-Ensamble Correa Transportadora Oruga}
-    \caption{Correa Transportadora Clasificadora de Repos}
+    \includegraphics[width=0.9\textwidth]{img/1-Ensamble Correa Transportadora V2.png}
+    \caption{Correa Transportadora Clasificadora de Repos V2}
     \label{fig:1-Correa_armada}
 \end{figure}
 
@@ -61,7 +61,6 @@ Diseñada por Fernando Navarrete, esta innovadora solución transforma la manera
 
 \par Luego, el listado de piezas impresas necesario para ensamblar la correa transportadora, se muestra en la Tabla \ref{tab:2-piezas}.
 
-\textbf{POR ACTUALIZAR}
 \begin{table}[H]
     \centering
     \caption{Listado de piezas impresas en 3D para cada correa}
@@ -69,39 +68,41 @@ Diseñada por Fernando Navarrete, esta innovadora solución transforma la manera
         \hline
         \textbf{Nombre} & \textbf{Descripción} & \textbf{Cantidad} \\
         \hline
-        Cadena de oruga & Cadena tipo oruga 43 eslabones & 1 \\
+        Correa TPU dentada & Cadena dentada trapezoidal en V & 1 \\
         \hline
-        Engranaje Motor Frontal & Engranaje de la unidad de potencia izquierdo & 1 \\
+        Polea Engranaje & Polea dentada de transmisión modificada & 1 \\
         \hline
-        Engranaje Motor Trasero & Engranaje de la unidad de potencia derecho & 1 \\
+        Tornillo Helicoidal Nema & Tornillo Helicoidal 45° para el motor Nema 17 & 1 \\
         \hline
-        Soporte Motor & Pieza de soporte del motor dc & 1 \\
+        Soporte Motor & Pieza de soporte del motor Nema & 1 \\
         \hline
-        Cilindro & Cilindro de la unidad de soporte & 1 \\
+        Polea Guía & Polea de guía sin dientes & 1 \\
         \hline
-        Eje 7mm & Eje de 7mm de la unidad de soporte & 1 \\
+        Eje 7mm & Eje de 7mm de la unidad de soporte y transmisión & 2 \\
         \hline
         Soportes de acrílico & Soportes laterales de la correa de acrílico transparente & 2 \\
         \hline
-        Apoyos paredes laterales & Piezas de apoyo para los soportes laterales de acrílico & 4 \\
+        Separador estructural inferior & Piezas de apoyo para los soportes laterales de acrílico & 2 \\
         \hline
-        Soporte inferior & Piezas de soporte para componentes electrónicos & 2 \\
+        Espaciador inferior & Pieza de soporte para portapilas & 2 \\
         \hline
-        Placa de componentes & Placa para driver L298N y baterías & 1 \\
+        Espaciador superior & Espaciador y soporte para racks y soporte motor nema & 2 \\
+        \hline
+        Espaciador central & Pieza de soporte para correa y rack de cables & 1 \\
         \hline
         Soporte servomotor & Soportes para servos SG90 & 2 \\
         \hline
         Pala servomotores & Pala para empuje servos SG90 & 2 \\
         \hline
-        Caja receptora lateral & Cajas receptoras de objetos clasificados & 2 \\
+        Caja receptoras & Cajas receptoras de objetos clasificados & 3 \\
         \hline
-        Soporte Superior & Pieza de unión caja y servos que mantiene correa nivelada & 2 \\
+        Rack de cables & Pieza de unión para ordenar cables en correa & 2 \\
         \hline
         Cámara Oscura & Cámara oscurecida para sensor a color & 1 \\
         \hline
         Cortinas de Lamas & Cortinas de lamas para cámara oscura & 2 \\
         \hline
-        Tolva de carga & Tolva para dirigir objetos a cámara oscura & 1 \\
+        Soporte PCB & Pieza impresa para soportar PCB Desafío 2 & 1 \\
         \hline
         Tapas cubrerodamientos & Tapas para cubrir rodamientos y evitar que los ejes salgan & 4 \\
         \hline
@@ -115,3 +116,213 @@ Diseñada por Fernando Navarrete, esta innovadora solución transforma la manera
 \section{Proceso de armado}
 
 \textbf{POR ACTUALIZAR}
+
+\par \textbf{Nota Feña:} Antes que nada, Vale, Emi, deben desarmar la versión anterior, remover los rodamientos pegados con silicona caliente y limpiar con alcohol isopropílico las paredes de acrílico. \\
+
+\par Primero, se deben colocar los rodamientos en las paredes de acrílico y fijar usando pegamento de cianoacrilato (gotita). Es importante que los rodamientos sobresalgan hacia el interior de la correa. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/3-Rodamientos_pared_acr_lico.png}
+    \caption{Pared de acrílico con rodamientos 627zz pegados.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/3-Rodamientos_pared_acr_lico_detalle.png}
+    \caption{Pared de acrílico con rodamientos 627zz pegados. Vista de detalle.}
+\end{figure}
+
+\par Posteriormente, deben fijar la pared trasera primero a los soportes estructurales inferiores con pernos M4.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/3-Soporte_pared_trasera.png}
+    \caption{Soportes estructurales inferiores sujetando pared de acrílico trasera.}
+\end{figure}
+
+\par Ahora, deben preparar el ensamblaje del sistema de potencia y transmisión de la correa, que irá en la parte de descarga de la correa. Deben primero insertar al motor Nema el tornillo helicoidal y fijarlo con un perno M3 pequeño al eje del motor.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Sistema_potencia_1.png}
+    \caption{Acople Tornillo helicoidal en el eje del motor Nema 17.}
+\end{figure}
+
+\par Posteriormente, deben colocar el motor sobre el soporte del motor nema con 4 pernos M3. Tener en consideración dejar los pines de alimentación orientados hacia afuera de la misma forma que se muestra en la imagen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Sistema_potencia_2.png}
+    \caption{Fijación motor Nema 17 al soporte de motor.}
+\end{figure}
+
+\par Luego, deben anclar un espaciador superior a las dos roscas del soporte de motor nema para completar el apoyo.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Sistema_potencia_3.png}
+    \caption{Fijación soporte motor al espaciador superior.}
+\end{figure}
+
+\par Antes de montar el sistema de potencia, fijamos el eje de 7mm junto a la Polea engranaje en el rodamiento con la pared de acrílico.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Sistema_potencia_4.png}
+    \caption{Colocación eje y Polea engranaje antes de montar sistema de potencia.}
+\end{figure}
+
+\par Proceda a montar el sistema armado anteriormente, debe colocarse en dirección desde arriba, hasta abajo, apoyando el tornillo del motor nema sobre el tornillo de la Polea engranaje.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Sistema_potencia_5.png}
+    \caption{Instalación sistema de potencia.}
+\end{figure}
+
+\par Tras este paso, debe añadir 3 pernos M3 a las fijaciones traseras del sistema instalado para evitar que se caiga momentáneamente. \\
+
+\par Ahora, se procede a armar el sistema de manejo de cables y guía central de la correa. Para ello, debe unir las siguientes 3 piezas: Rack de cables, Espaciador central y Espaciador superior. Todo esto con pernos M3 cortos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Soporte_Manejo_cables_1.png}
+    \caption{Armado soporte de manejo de cables.}
+\end{figure}
+
+\par Proceda a instalarlo sobre la pared de acrílico trasera y fijarlo con pernos M3.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/3-Soporte_Manejo_cables_2.png}
+    \caption{Instalación soporte de manejo de cables.}
+\end{figure}
+
+\par Por otro lado, debe fijar un espaciador inferior junto al portapilas 3x18650 con pernos avellanados o de cabeza plana.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/3-Espaciador_inferior_portapilas.png}
+    \caption{Fijación portapilas a espaciador inferior.}
+\end{figure}
+
+\par Luego, lo atornilla con pernos M3 por el otro lado de la pared acrílica trasera (mínimo 2). Debe cuidar que la orientación de los cables sea hacia el lado izquierdo de la correa (en contra del sistema de potencia).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/3-Espaciador_inferior_pared_trasera.png}
+    \caption{Instalación espaciador inferior en pared acrílica trasera.}
+\end{figure}
+
+\par Nota: Deben colocar el otro espaciador inferior para brindar más soporte. 
+
+\par Como paso previo a la instalación de la correa, se recomienda acomodarla con la Polea guía.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/3-Correa_polea_1.png}
+    \caption{Polea guía y correa transportadora.}
+\end{figure}
+
+\par De esta forma, debe insertarse el eje de la Polea guía en el rodamiento izquierdo y colocar cuidadosamente la correa hasta que quede montada y alineada con la Polea engranaje. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/3-Correa_polea_2.png}
+    \caption{Polea guía y correa transportadora.}
+\end{figure}
+
+\par Tras este paso, procedemos a colocar la otra pared de acrílico con rodamientos. Nótese que puede colocarse de forma horizontal y cuidando de luego colocar los ejes sobre los rodamientos (puede que deba doblar un poco la pared de acrílico, tenga cuidado). 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Correa_polea_3.png}
+    \caption{Sistema de correa armado.}
+\end{figure}
+
+\par Recuerde fijar los soportes con pernos M3 y M4 por la parte frontal, así la correa quedará correctamente alineada y fija. \textbf{Solo omitir el perno frontal del Espaciador central}. \\
+
+\par Ahora, para evitar desplazamientos de ambos ejes, se usarán tapas con imanes de neodimio. Primero debe conseguir los imanes y pegarlos en las tapas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Tapa_rodamiento_1.png}
+    \caption{Tapa de rodamiento con iman.}
+\end{figure}
+
+
+\par Debe preparar 4 por correa y luego insertarlos de forma simple en las paredes y gracias al magnetismo, se pegarán a los rodamientos. \textbf{Advertencia: debe colocarlos suavemente, pueden romperse al impactar.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Tapa_rodamiento_2.png}
+    \caption{Tapa de rodamiento colocadas en la correa.}
+\end{figure}
+
+
+\par Tras este paso, queda colocar los accesorios electrónicos y de clasificación de la correa. Primero, se debe preparar la Cámara oscura junto al sensor de color. Sujételo con pernos por fuera.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Camara_oscura_1.png}
+    \caption{Cámara Oscura con sensor a color adherido.}
+\end{figure}
+
+\par Luego, debe colocar las cortinas de lamas con 2 pernos c/u sobre la cámara oscura para restringir la luz externa.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Camara_oscura_2.png}
+    \caption{Cámara Oscura ensamblada.}
+\end{figure}
+
+\par Para ensamblar la Cámara Oscura, debe estirar levemente la correa y ponerla por dentro de la cámara a través de la ranura central inferior (esto sirve para mantener la correa nivelada). Luego debe fijarla con 4 pernos M3. \textbf{Debe cuidar que el lado del sensor esté mirando hacia atrás.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Camara_oscura_3.png}
+    \caption{Cámara Oscura ensamblada en la correa.}
+\end{figure}
+
+\par Continuando el armado, el servomotor es simple de armar: se debe colocar en el soporte de servomotor y luego insertar la pala sobre el eje del servo. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Servomotor_1.png}
+    \caption{Soporte servomotor y pala ensamblados.}
+\end{figure}
+
+
+\par Para cuestiones de ensamble, observe que \textbf{ambos servomotores deben estar orientados a la derecha de la correa}, por lo que deberá ensamblar ambos servomotores con orientación diferente. Para este ensamble, \textbf{no se requieren pernos}, deben ir colocados directamente sobre los soportes superiores.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Servomotor_2.png}
+    \caption{Soporte servomotor y pala ensamblados en la correa.}
+\end{figure}
+
+\par Posteriormente, debe ensamblar la PCB del Desafío 2 sobre el Soporte PCB para anclarlo a la correa. \textbf{Previamente deben estar todos los componentes y headers soldados.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Soporte_PCB_1.png}
+    \caption{Soporte PCB armado.}
+\end{figure}
+
+\par Luego, para ensamblarlo en la correa: fijar primero la pestaña inferior, luego girar y apoyar la rosca superior sobre el perno del espaciador central.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/3-Soporte_PCB_2.png}
+    \caption{Soporte PCB ensamblado.}
+\end{figure}
+
+\par Finalmente, se deben gestionar las conexiones eléctricas y colocar el Switch de 2 pines y las cajas receptoras en las posiciones objetivos mostradas en la última imagen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{img/3-Correa_terminada.png}
+    \caption{Correa Transportadora ensamblada.}
+\end{figure}
