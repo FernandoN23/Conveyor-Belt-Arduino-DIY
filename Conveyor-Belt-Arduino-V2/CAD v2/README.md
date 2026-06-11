@@ -4,7 +4,7 @@
 
 ## English Version 🇺🇸
 
-Welcome to the **Digital Design Repository** for the **REPOS Sorting Conveyor Belt**!
+Welcome to the **Digital Design Repository** for the **REPOS Sorting Conveyor Belt V2**!
 
 This directory contains the source files for the mechanical structure. Whether you want to modify the design or simply export files for 3D printing, you will find everything you need here.
 
@@ -21,13 +21,17 @@ We provide the models in two industry-standard formats to ensure compatibility w
 > **📍 NAVIGATION TIP:**
 > The files are organized by format. Choose the folder that matches your software workflow: `../Fusion360` or `../STEP`.
 
-Inside each format folder, you will find:
+Inside each format folder, you will find the following organized hierarchy:
 
-* **`Ensamble Correa Transportadora Oruga`** (Main File):
-    * This is the **Full Assembly**. It contains the entire machine fully assembled. Use this file to understand how parts fit together, check clearances, or view the complete digital twin.
-* **`/Parts`** (Sub-folder):
-    * Contains **Individual Component Files**. Each part (e.g., *Engranaje*, *Soporte Motor*, *Caja Receptora*) is saved as a separate file.
-    * **Use these files for 3D Printing:** Open these individual files to export them as `.stl` or `.3mf` for your slicer software.
+* 📄 **`Ensamble Correa Transportadora Miniatura`** (Main Assembly File):
+    * This is the **Full Assembly**. It contains the entire machine fully integrated. Use this file to understand how parts fit together, check clearances, or view the complete digital twin.
+* 📁 **`/Electronic Parts`** (Sub-folder):
+    * Contains CAD models of the active electromechanical and electronic hardware (e.g., *NEMA 17 Stepper Motor*, *EasyDriver A3967*, *Arduino*, *SG90 Servos*, *Custom PCB*). Use these for dimensional references and housing fitment checks.
+* 📁 **`/Mechanic Parts`** (Sub-folder):
+    * Contains CAD models of standard mechanical hardware (e.g., *627zz Bearings*, *Neodymium Magnets*, *M3/M4 Bolts*). Essential for checking fastener clearances.
+* 📁 **`/Parts`** (Sub-folder):
+    * Contains **Individual Custom Mechanical Components** designed specifically for this project (e.g., *Worm Screw*, *Gear Pulley*, *Chamber*, *Boxes*).
+    * **Use these files for 3D Printing:** Open the individual components in this folder to export them as `.stl` or `.3mf` for your slicer software.
 
 ### ⚠️ Important Manufacturing Notes
 
@@ -41,7 +45,7 @@ Inside each format folder, you will find:
 
 *Autor: Fernando Navarrete* ✍️
 
-¡Bienvenido al **Repositorio de Diseño Digital** de la **Correa Transportadora Clasificadora REPOS**!
+¡Bienvenido al **Repositorio de Diseño Digital** de la **Correa Transportadora Clasificadora REPOS V2**!
 
 Este directorio contiene los archivos fuente de la estructura mecánica. Ya sea que desees modificar el diseño o simplemente exportar archivos para impresión 3D, aquí encontrarás todo lo necesario.
 
@@ -58,13 +62,17 @@ Proporcionamos los modelos en dos formatos estándar de la industria para asegur
 > **📍 TIP DE NAVEGACIÓN:**
 > Los archivos están organizados por formato. Elige la carpeta que coincida con tu flujo de trabajo: `../Fusion360` o `../STEP`.
 
-Dentro de cada carpeta de formato, encontrarás:
+Dentro de cada carpeta de formato, encontrarás la siguiente jerarquía organizada:
 
-* **`Ensamble Correa Transportadora Oruga`** (Archivo Principal):
+* 📄 **`Ensamble Correa Transportadora Miniatura`** (Archivo de Ensamblaje Principal):
     * Este es el **Ensamblaje Completo**. Contiene la máquina entera totalmente armada. Usa este archivo para entender cómo encajan las piezas, verificar holguras o ver el gemelo digital completo.
-* **`/Parts`** (Sub-carpeta):
-    * Contiene **Archivos de Componentes Individuales**. Cada pieza (ej. *Engranaje*, *Soporte Motor*, *Caja Receptora*) está guardada como un archivo separado.
-    * **Usa estos archivos para Impresión 3D:** Abre estos archivos individuales para exportarlos como `.stl` o `.3mf` para tu software de laminado (slicer).
+* 📁 **`/Electronic Parts`** (Sub-carpeta):
+    * Contiene los modelos CAD del hardware electrónico y electromecánico activo (ej. *Motor Paso a Paso NEMA 17*, *EasyDriver A3967*, *Arduino*, *Servos SG90*, *PCB Personalizada*). Úsalos para referencias dimensionales y tolerancias de carcasas.
+* 📁 **`/Mechanic Parts`** (Sub-carpeta):
+    * Contiene los modelos CAD del hardware mecánico comercial estándar (ej. *Rodamientos 627zz*, *Imanes de Neodimio*, *Pernos M3/M4*). Esencial para comprobar el espacio libre de la tornillería.
+* 📁 **`/Parts`** (Sub-carpeta):
+    * Contiene los **Componentes Mecánicos Personalizados Individuales** diseñados específicamente para este proyecto (ej. *Tornillo Helicoidal*, *Polea Engranaje*, *Cámara Oscura*, *Cajas*).
+    * **Usa estos archivos para Impresión 3D:** Abre los componentes individuales en esta carpeta para exportarlos como `.stl` o `.3mf` para tu software de laminado (slicer).
 
 ### ⚠️ Notas Importantes de Manufactura
 
